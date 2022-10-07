@@ -20,10 +20,21 @@
   Esse projeto foi criado do zero, levando em consideração conceitos de UX/UI Design e “um poucoo” de lógica…🤏🏼Com um visual <strong>“dark”</strong> para o jogador sentir realmente a sensação de estar em uma noite sombria de lua cheia sendo levado à forca…😨
   </p>
   <h2>Principais desafios</h2>
-  
+  <ul>
+    <li>Lidar com posição relativa e absoluta do CSS para centralizar o bonequinho no centro da lua cheia (e continuar responsivo, independente do dispositivo), pois não tinha muita familiaridade com essas propriedades de posição.</li> <br>
+    <li>Pensar como seria armazenado a escolha da categoria pelo jogador na página inicial ao fazer a transição para a página do game, pois ao ser direcionado para a página seguinte a variável não estava sendo armazenada, encontrei a solução de armazená-la localmente através do <code>Window.localStorage</code>, uma propriedade somente leitura que permite guardar objetos localmente e podendo acessar os dados salvos através das sessões do navegador.</li>  <br>
+    <li>Pensar qual seria a melhor forma de criar um boneco do zero que pudesse ser manipulado membro a membro ao decorrer do game, através de pesquisas encontrei na documentação do JavaScript  no site → https://developer.mozilla.org/ , que existe um elemento HTML que nos permite desenhar em um quadro que é o <code>Canvas</code>, como se fosse uma lousa mesmo, com isso meu principal impedimento a esse projeto foi solucionado.</li>  <br>
+    <li> Último e não menos importante é:</li>
+    <p><strong><i> Tentar ajudar o homenzinho prestes a ir para a forca… 😸</i></strong> </p>
+  </ul>
+
+
 
   <h1><a id="project" class="anchor" aria-hidden="true" href="#project" style="user-select: auto;">
-<a id="user-content-contributors-" class="anchor" aria-hidden="true" href="#contributors-" style="user-select: auto;"><svg class="octicon octicon-link"     viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" style="user-select: auto;"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" style="user-select: auto;"></path></svg></a><img src="https://user-images.githubusercontent.com/93599890/194452089-545565a3-4481-4447-aca3-d5efeb6dac36.png" width="42px"></img> Prints</h1>
-  
+<a id="user-content-contributors-" class="anchor" aria-hidden="true" href="#contributors-" style="user-select: auto;"><svg class="octicon octicon-link"     viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" style="user-select: auto;"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" style="user-select: auto;"></path></svg></a><img src="https://user-images.githubusercontent.com/93599890/194557724-0649c695-d4f6-4738-98c7-a96b02f2df5f.png" width="42px"></img> Prints</h1>
+  <div align="center" dir="auto" style="user-select: auto;">
+    <img src="https://user-images.githubusercontent.com/93599890/194558529-a6ba7011-8a72-4884-879f-cf8669264222.png" width="400px"></img>
+  <img src="https://user-images.githubusercontent.com/93599890/194558179-095d31b6-e340-468d-be6c-60b4d84027c8.png" width="410px"></img>
+  </div>
 </article>
           </div>
